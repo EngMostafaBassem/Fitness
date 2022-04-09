@@ -1,0 +1,73 @@
+.fitness_FAQ{ 
+    &-title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 84px;
+        color: #313131;
+        text-align: center;
+
+        @media screen and (max-width:768px) {
+           font-size: 40px;
+            
+        }
+
+    }
+    &-subtitle{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;  
+        color: #5F5F5F;
+        max-width: 72rem;
+        margin: auto;
+
+        @media screen and (max-width:768px) {
+            width: 80%;
+            font-size: 14px;
+             
+         }
+    }
+    &-wrapper{
+        background: #EEF7FB;
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10rem;
+        &-box{
+            flex-basis: 50%;
+            background: white;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 4rem;
+            flex-basis: 45%;
+            margin:1rem;     
+            &-title{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 130%;  
+                color: #313131;         
+                opacity: 0.88;
+                margin-bottom: 2rem;
+            }
+            &-desc{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 23px;       
+                color: #5F5F5F;
+
+            }
+        }
+
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+            padding: 2rem 1rem;
+            
+        }
+
+    }
+}

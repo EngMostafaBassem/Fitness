@@ -1,0 +1,112 @@
+.fitness_nav{
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logo{
+        width: 7.3rem;
+        height: 2rem;
+    }
+    &-links{
+       display: flex;
+       align-items: center;
+        &-item{
+            margin-right: 2rem;
+            a{
+                font-style: normal;
+                font-weight: 450;
+                font-size: 15px;
+                line-height: 22px;
+                color: #313131; 
+            }
+
+        }
+        @media screen and(max-width:679px) {
+            display: none;
+            
+        }
+    }
+    &-btns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-signIn{
+            margin-right: 4rem;
+            font-style: normal;
+            font-size: 1.4rem;
+            line-height: 22px;
+            color: #313131;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            text-shadow:0 0  0.1rem rgba(0, 0, 0, 0.74);
+            cursor: pointer;
+            @media screen and(max-width:679px) {
+                font-size: 1rem;
+                
+            }
+            @media screen and(max-width:320px) {
+                margin-right: 0.8rem;
+                
+            }
+        }
+        &-signUp{
+            font-style: normal;
+            font-weight: 450;
+            font-size: 1.4rem;
+            line-height: 22px;
+            color: #FFFFFF;
+            border: none;
+            outline: none;
+            background-color:#313131;
+            padding: 0.6rem 2rem;
+            border-radius: 0.3rem;
+            cursor: pointer;
+            margin-right: 1rem;
+            box-shadow: 0 0  0.3rem #313131;
+            @media screen and(max-width:679px) {
+                font-size: 1rem;
+                
+            }
+           
+           
+            
+        }
+
+        &-menu{
+            position: relative;
+            display: none;
+            &-list{
+                z-index: 9999;
+                position: absolute;
+                top: 0;
+                right:5rem;
+                padding: 0;
+                background-color: #EEF7FB;
+                color: black;
+                width: 15rem;
+                height: auto;
+                font-weight: bold;
+                &-item{
+                    margin: 2rem;
+                    a{  
+                        color: #313131; 
+                        font-size: 1.5rem;
+                    }
+
+                }
+            }
+            @media screen and(max-width:679px) {
+                display: block;
+                
+            }
+
+        }
+    }
+
+}
+.icon{
+    font-size: 3.5rem;
+    cursor: pointer;
+
+}

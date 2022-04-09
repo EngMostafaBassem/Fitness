@@ -1,0 +1,35 @@
+.collapse-wrapper{  
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height:6rem;
+    padding:  0 2rem;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    margin-bottom: 4rem;
+    &_title{
+        height:6rem; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        &-label{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            color: #313131;    
+            opacity: 0.88
+        }
+        &-icon{
+            cursor: pointer;
+        }
+    }
+    &_content{
+        padding:2rem 2rem 2rem 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 23px; 
+        color: #5F5F5F;
+    }
+
+
+}

@@ -1,0 +1,72 @@
+.fitness_partners{
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &-content{
+        flex: 1;
+        &-title{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 55px;
+            line-height: 84px;
+            color: #313131;
+            margin-bottom: 2rem;
+
+            @media screen and(max-width:1196px) {
+                font-size: 25px;
+                line-height: 44px;          
+            }     
+
+            @media screen and (max-width:320px) {
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+        &-subtitle{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 26px;  
+            color: #313131;
+            max-width: 49.1rem;
+
+            @media screen and(max-width:1196px) {
+                max-width: 100%
+                
+                
+            }
+
+            @media screen and (max-width:320px) {
+                font-size: 12px;
+            }
+        }
+    }
+    &-img{
+        flex: 1;
+        max-height: 40rem;
+
+        @media screen and(max-width:1196px) {
+            max-height: 30rem;
+              
+          }
+    }
+    &-dots{ 
+        position: absolute;
+        bottom: 2rem;
+        left: 0;
+        max-height: 15rem;
+
+        @media screen and(max-width:1196px) {
+          display: none;
+            
+        }
+    }
+
+    @media screen and(max-width:1196px) {
+        flex-direction: column;
+        
+    }
+
+}

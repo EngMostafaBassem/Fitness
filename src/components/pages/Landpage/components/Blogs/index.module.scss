@@ -1,0 +1,94 @@
+.fitness-blogs{
+    padding: 10rem;
+    position: relative;
+    &-title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 84px;
+        color: #313131;
+
+        @media screen and(max-width:768px) {
+            line-height: 45px;
+            font-size: 25px;
+        }
+        
+    }
+    &-wrapper{
+        margin: 2rem;
+        display: flex;
+        &-box{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-right: 4rem;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 2rem;
+            flex: 1;
+            &-img{
+                width: 100%
+               
+            }
+            &-status{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 29px;    
+                letter-spacing: -0.5px;    
+                color: #FF5F5F;
+                margin-top: 2rem;
+
+            }
+            &-label{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 130%;
+                color: #313131;
+                opacity: 0.88;
+               
+                margin-top: 2rem;
+
+            }
+            &-desc{
+                background: #EEF7FB;
+                backdrop-filter: blur(100px);   
+                padding: 4rem;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 23px;   
+                color: #5F5F5F;
+                margin-top: 5rem;
+
+                @media screen and(max-width:916px) {
+                    padding: 2rem;
+                    font-size: 12px;
+                }
+
+            }
+
+        }
+        @media screen and(max-width:916px) {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+    
+    &-dots{
+       position: absolute;
+       right: 0;
+       top: 0;
+       width: 10rem;
+
+    }
+
+
+    @media screen and(max-width:916px) {
+        padding: 15rem 1rem;
+        width: 100%;
+    }
+   
+
+}

@@ -1,0 +1,57 @@
+.fitness_testimonials{
+    padding: 10rem;
+    &-title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 84px;
+        text-align: center;  
+        color: #313131;
+
+
+        @media screen and(max-width:1094px) {
+            font-size: 35px;
+            
+        }
+    }
+    &-subtitle{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #5F5F5F;
+        max-width:70rem ;
+        margin: auto;
+
+        @media screen and(max-width:1094px) {
+            font-size: 12px;
+            max-width: 80%;
+            
+        }
+        
+
+    }
+    &-slideshow{
+        margin: 10rem 0;
+    }
+
+    @media screen and(max-width:1094px) {
+        padding: 4rem 1rem;
+        
+    }
+
+}
+div[class^=awssld__content]{
+    background-color: white;
+}
+.slider{
+    @media screen and(max-width:1094px) {
+        margin: 4rem 0;
+        height: 35rem;
+       
+      
+        
+    }
+
+}
